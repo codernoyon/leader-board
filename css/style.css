@@ -211,6 +211,90 @@ header{
 }
 
 
+
+#parent-list .list{
+    color: #562EFF;
+    font-size: 1.2rem;
+    font-weight: 500;
+    background: rgb(243, 239, 239);
+    padding: .3rem .5rem;
+    border-radius: .3rem;
+    margin-bottom: .5rem;
+}
+
+#add-list{
+    background: #562EFF;
+    color: #fff;
+    padding: .5rem 1.5rem;
+    border: 1px solid #562EFF;
+    border-radius: .3rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+#add-list:hover{
+    color: #562EFF;
+    background: transparent;
+}
+
+#remove-list{
+    background: #ff2e2e;
+    color: #fff;
+    padding: .5rem 1.5rem;
+    border: 1px solid #ff2e2e;
+    border-radius: .3rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+#remove-list:hover{
+    color: #ff2e2e;
+    background: transparent;
+}
+
+
+#add-value{
+    background: green;
+    color: #fff;
+    font-weight: 600;
+    padding: .5rem 1.5rem;
+    cursor: pointer;
+    border: 1px solid green;
+    border-radius: .3rem;
+}
+
+#add-value:hover{
+    background: transparent;
+    color: green;
+
+}
+
+#add-value:disabled{
+    background: rgba(86, 156, 86, 0.575);
+    color: #Fff;
+}
+
+.count-form{
+    width: 40%;
+    background: lightblue;
+    padding: 2rem;
+    border-radius: .5rem;
+
+}
+
+.count-form input{
+    width: 100%;
+    padding: .5rem;
+    display: block;
+    margin-bottom: 3rem;
+    border: none;
+    outline: none;
+    font-size: 2rem;
+
+}
+
 /* -------------------------
        media queries 
 ------------------------ */
